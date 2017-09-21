@@ -1,5 +1,5 @@
 html {
-  background: url("https://rawgit.com/relic217/hayride/master/resources/images/shadowsbg2.jpg") no-repeat center center fixed;
+  background: url("https://rawgit.com/relic217/hayride/master/resources/images/shadowsbg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,7 +13,7 @@ html {
 }
 
 h1, h2, h3 {
-  font-family: Garamond;
+  font-family: Helvetica;
   color: white;
   text-align: center;
   margin: auto;
@@ -24,6 +24,14 @@ h1, h2, h3 {
 h2 {
   font-size: 30px;
   color: #EE7600;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+.price {
+  color: red;
 }
 
 #buynow {
