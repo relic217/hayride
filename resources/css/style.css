@@ -1,5 +1,5 @@
 html {
-  background: url("http://losangeleshauntedhayride.com/wp-content/uploads/2015/07/shadowsbg.jpg") no-repeat center center fixed;
+  background: url("https://rawgit.com/relic217/hayride/master/resources/images/shadowsbg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,9 +12,17 @@ html {
   width: 40%;
 }
 
-h1 {
+h1, h2, h3 {
   color: white;
   text-align: center;
+  margin: auto;
+  width: 70%;
+  -webkit-text-stroke: 0.25px black;
+}
+
+h2 {
+  font-size: 30px;
+  color: #EE7600;
 }
 
 #buynow {
